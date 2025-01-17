@@ -25,7 +25,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             blog
           </a>
           <a
-            href="https://beelau.vercel.app"
+            href="https://teaching.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-500 hover:text-red-400"
@@ -33,7 +33,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             teaching
           </a>
           <a
-            href="https://blau.vercel.app"
+            href="https://portfolio.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-500 hover:text-red-400"
