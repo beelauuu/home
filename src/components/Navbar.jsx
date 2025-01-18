@@ -17,7 +17,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             home
           </a>
           <a
-            href="https://evanmasiello.com/clubrunning/"
+            href="https://blog.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-500 hover:text-red-400"
