@@ -27,7 +27,7 @@ function Experience({isDarkMode}) {
         <p className={isDarkMode ? "text-xl font-bold underline mb-2 mt-4 text-white" : "text-xl font-bold underline mb-2 mt-4"}>present</p>
         <div className="text-sm sm:text-base">
                 <p>
-                  <span className="text-red-400">- lead ta: </span>
+                  <span className="text-red-400">- undergraduate ta: </span>
                   <span className="text-orange-400"> cmsc132 (sp25) </span>
                 </p>
                 <p>
