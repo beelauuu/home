@@ -12,13 +12,18 @@ function Experience({ isDarkMode }) {
       >
         future
       </p>
+      <div className="space-y-2 text-sm sm:text-base">
       <p>
         <span className="text-red-400">- sub 2:50 marathon</span>
         <span className="text-orange-400"> @ tcs nyc marathon</span>
       </p>
+      </div>
+      
+      <div className="space-y-2 text-sm sm:text-base">
       <p>
         <span className="text-red-400">- 250 bench press</span>
       </p>
+      </div>
 
       <p
         className={
