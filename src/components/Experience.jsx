@@ -97,7 +97,7 @@ function Experience({ isDarkMode }) {
           >
             cmsc132
           </a>
-          <span className="text-orange-400"> (su23, fa22, su22), </span>
+          <span className="text-orange-400"> (sp25, su23, fa22, su22), </span>
           <a
             href="https://www.cs.umd.edu/class/fall2023/cmsc122-0101/"
             target="_blank"
