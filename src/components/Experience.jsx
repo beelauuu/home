@@ -46,7 +46,7 @@ function Experience({ isDarkMode }) {
         <p>
           <span className="text-red-400">- swe intern: </span>
           <a
-            href="https://www.palantir.com/platforms/gotham/"
+            href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-orange-400 hover:underline"
