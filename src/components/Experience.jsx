@@ -42,23 +42,10 @@ function Experience({ isDarkMode }) {
           </span>
         </p>
       </div>
-      <div className="space-y-2 text-sm sm:text-base">
-        <p>
-          <span className="text-red-400">- swe intern: </span>
-          <a
-            href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-400 hover:underline"
-          >
-            pipeline builder @ palantir foundry (su25)
-          </a>
-        </p>
-      </div>
       <div className="text-sm sm:text-base">
         <p>
           <span className="text-red-400">- graduate ta: </span>
-          <span className="text-orange-400"> cmsc132 (su25) </span>
+          <span className="text-orange-400"> cmsc122 (fa25) </span>
         </p>
       </div>
       <p
@@ -97,7 +84,7 @@ function Experience({ isDarkMode }) {
           >
             cmsc132
           </a>
-          <span className="text-orange-400"> (sp25, su23, fa22, su22), </span>
+          <span className="text-orange-400"> (su25, sp25, su23, fa22, su22), </span>
           <a
             href="https://www.cs.umd.edu/class/fall2023/cmsc122-0101/"
             target="_blank"
@@ -114,6 +101,19 @@ function Experience({ isDarkMode }) {
           <span className="text-orange-400"> (sp25)</span>
         </p>
         <p>
+          <div className="space-y-2 text-sm sm:text-base">
+        <p>
+          <span className="text-red-400">- swe intern: </span>
+          <a
+            href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-400 hover:underline"
+          >
+            pipeline builder @ palantir foundry (su25)
+          </a>
+        </p>
+      </div>
           <span className="text-red-400">- swe intern: </span>
           <a
             href="https://aws.amazon.com/batch/"
