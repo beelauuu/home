@@ -8,7 +8,8 @@ function About({ isDarkMode }) {
         <p className="mt-8 mb-8 text-lg">
           <span className="text-red-400">hi!</span>
           <span className="text-orange-400"> my </span>
-          <span className="text-red-400">name is</span>
+          <span className="text-red-400">name </span>
+           <span className="text-orange-400"> is </span>
         </p>
         <h1
           className={

@@ -20,7 +20,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             href="https://teaching.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-red-500 hover:text-red-400"
+            className="text-orange-500 hover:text-orange-400"
           >
             teaching
           </a>
@@ -31,6 +31,14 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             className="text-red-500 hover:text-red-400"
           >
             professional
+          </a>
+          <a
+            href="https://www.strava.com/athletes/41098360"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-500 hover:text-orange-400"
+          >
+            strava
           </a>
         </div>
 
@@ -56,18 +64,10 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             home
           </a>
           <a
-            href="https://blog.beelau.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-red-500 hover:text-red-400"
-          >
-            blog
-          </a>
-          <a
             href="https://teaching.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-red-500 hover:text-red-400"
+            className="block text-orange-500 hover:text-orange-400"
           >
             teaching
           </a>
@@ -78,6 +78,14 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             className="block text-red-500 hover:text-red-400"
           >
             professional
+          </a>
+          <a
+            href="https://www.strava.com/athletes/41098360"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-orange-500 hover:text-orange-400"
+          >
+            strava
           </a>
         </div>
       )}

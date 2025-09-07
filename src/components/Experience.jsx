@@ -12,18 +12,26 @@ function Experience({ isDarkMode }) {
       >
         future
       </p>
-      <div className="space-y-2 text-sm sm:text-base">
       <p>
         <span className="text-red-400">- sub 2:50 marathon</span>
         <span className="text-orange-400"> @ tcs nyc marathon</span>
       </p>
-      </div>
-      
-      <div className="space-y-2 text-sm sm:text-base">
+
       <p>
         <span className="text-red-400">- 250 bench press</span>
       </p>
-      </div>
+
+      <p>
+        <span className="text-red-400">- swe: </span>
+        <a
+          href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-orange-400 hover:underline"
+        >
+          pipeline builder @ palantir foundry
+        </a>
+      </p>
 
       <p
         className={
@@ -84,7 +92,10 @@ function Experience({ isDarkMode }) {
           >
             cmsc132
           </a>
-          <span className="text-orange-400"> (su25, sp25, su23, fa22, su22), </span>
+          <span className="text-orange-400">
+            {" "}
+            (su25, sp25, su23, fa22, su22),{" "}
+          </span>
           <a
             href="https://www.cs.umd.edu/class/fall2023/cmsc122-0101/"
             target="_blank"
@@ -102,18 +113,18 @@ function Experience({ isDarkMode }) {
         </p>
         <p>
           <div className="space-y-2 text-sm sm:text-base">
-        <p>
-          <span className="text-red-400">- swe intern: </span>
-          <a
-            href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-400 hover:underline"
-          >
-            pipeline builder @ palantir foundry (su25)
-          </a>
-        </p>
-      </div>
+            <p>
+              <span className="text-red-400">- swe intern: </span>
+              <a
+                href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-400 hover:underline"
+              >
+                pipeline builder @ palantir foundry (su25)
+              </a>
+            </p>
+          </div>
           <span className="text-red-400">- swe intern: </span>
           <a
             href="https://aws.amazon.com/batch/"
