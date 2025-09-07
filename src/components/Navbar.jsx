@@ -17,14 +17,6 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             home
           </a>
           <a
-            href="https://blog.beelau.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-red-500 hover:text-red-400"
-          >
-            blog
-          </a>
-          <a
             href="https://teaching.beelau.dev"
             target="_blank"
             rel="noopener noreferrer"
