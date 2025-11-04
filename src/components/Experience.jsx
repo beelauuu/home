@@ -12,15 +12,19 @@ function Experience({ isDarkMode }) {
       >
         future
       </p>
+      <div className="space-y-2 text-sm sm:text-base">
       <p>
-        <span className="text-red-400">- sub 2:50 marathon</span>
-        <span className="text-orange-400"> @ tcs nyc marathon</span>
+        <span className="text-red-400">- sub 2:40 marathon</span>
+        <span className="text-orange-400"> @ bofa chicago marathon</span>
       </p>
-
-      <p>
-        <span className="text-red-400">- 250 bench press</span>
+      </div>
+      <div className="space-y-2 text-sm sm:text-base">
+      <p>  
+        <span className="text-red-400">- sub 1:15 half</span>
+        <span className="text-orange-400"> @ ???</span>
       </p>
-
+      </div>
+      <div className="text-sm sm:text-base">
       <p>
         <span className="text-red-400">- swe: </span>
         <a
@@ -32,7 +36,7 @@ function Experience({ isDarkMode }) {
           pipeline builder @ palantir foundry
         </a>
       </p>
-
+      </div>
       <p
         className={
           isDarkMode
@@ -50,7 +54,7 @@ function Experience({ isDarkMode }) {
           </span>
         </p>
       </div>
-      <div className="text-sm sm:text-base">
+      <div className="space-y-2 text-sm sm:text-base">
         <p>
           <span className="text-red-400">- graduate ta: </span>
           <span className="text-orange-400"> cmsc122 (fa25) </span>
