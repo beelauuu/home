@@ -57,7 +57,13 @@ function Experience({ isDarkMode }) {
       <div className="space-y-2 text-sm sm:text-base">
         <p>
           <span className="text-red-400">- graduate ta: </span>
-          <span className="text-orange-400"> cmsc122 (fa25) </span>
+          <span className="text-orange-400"> cmsc434 (fa25) </span>
+        </p>
+      </div>
+      <div className="space-y-2 text-sm sm:text-base">
+        <p>
+          <span className="text-red-400">- graduate ta: </span>
+          <span className="text-orange-400"> cmsc132 (fa25) </span>
         </p>
       </div>
       <p
@@ -108,7 +114,7 @@ function Experience({ isDarkMode }) {
           >
             cmsc122
           </a>
-          <span className="text-orange-400"> (fa23)</span>
+          <span className="text-orange-400"> (fa23, fa25)</span>
         </p>
         <p>
           <span className="text-red-400">- undergraduate ta: </span>
