@@ -12,12 +12,6 @@ function Experience({ isDarkMode }) {
       >
         future
       </p>
-            <div className="space-y-2 text-sm sm:text-base">
-      <p>  
-        <span className="text-red-400">- sub 59 hyrox doubles</span>
-        <span className="text-orange-400"> @ hyrox dc</span>
-      </p>
-      </div>
       <div className="space-y-2 text-sm sm:text-base">
       <p>
         <span className="text-red-400">- sub 2:40 marathon</span>
