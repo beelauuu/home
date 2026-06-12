@@ -18,19 +18,6 @@ function Experience({ isDarkMode }) {
         <span className="text-orange-400"> @ bofa chicago marathon</span>
       </p>
       </div>
-      <div className="text-sm sm:text-base">
-      <p>
-        <span className="text-red-400">- swe: </span>
-        <a
-          href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-orange-400 hover:underline"
-        >
-          pipeline builder @ palantir foundry
-        </a>
-      </p>
-      </div>
       <p
         className={
           isDarkMode
@@ -41,24 +28,17 @@ function Experience({ isDarkMode }) {
         present
       </p>
       <div className="space-y-2 text-sm sm:text-base">
-        <p>
-          <span className="text-red-400">- mscs student </span>
-          <span className="text-orange-400">
-            @ university of maryland: college park
-          </span>
-        </p>
-      </div>
-      <div className="space-y-2 text-sm sm:text-base">
-        <p>
-          <span className="text-red-400">- graduate ta: </span>
-          <span className="text-orange-400"> cmsc434 (sp26) </span>
-        </p>
-      </div>
-      <div className="space-y-2 text-sm sm:text-base">
-        <p>
-          <span className="text-red-400">- graduate ta: </span>
-          <span className="text-orange-400"> cmsc132 (sp26) </span>
-        </p>
+      <p>
+        <span className="text-red-400">- swe: </span>
+        <a
+          href="https://www.palantir.com/platforms/foundry/data-integration/pipeline-builder/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-orange-400 hover:underline"
+        >
+          gaia @ palantir (gotham)
+        </a>
+      </p>
       </div>
       <p
         className={
@@ -69,6 +49,14 @@ function Experience({ isDarkMode }) {
       >
         past
       </p>
+      <div className="space-y-2 text-sm sm:text-base">
+        <p>
+          <span className="text-red-400">- mscs student </span>
+          <span className="text-orange-400">
+            @ university of maryland: college park
+          </span>
+        </p>
+      </div>
       <div className="text-gray-300 text-sm sm:text-base">
         <p>
           <span className="text-red-400">- cs + math student</span>
@@ -98,7 +86,7 @@ function Experience({ isDarkMode }) {
           </a>
           <span className="text-orange-400">
             {" "}
-            (su25, sp25, su23, fa22, su22),{" "}
+            (sp26, su25, sp25, su23, fa22, su22),{" "}
           </span>
           <a
             href="https://www.cs.umd.edu/class/fall2023/cmsc122-0101/"
@@ -108,12 +96,12 @@ function Experience({ isDarkMode }) {
           >
             cmsc122
           </a>
-          <span className="text-orange-400"> (fa23, fa25)</span>
+          <span className="text-orange-400"> (fa25, fa23)</span>
         </p>
         <p>
-          <span className="text-red-400">- undergraduate ta: </span>
+          <span className="text-red-400">- grad/undergraduate ta: </span>
           <span className="text-red-400"> cmsc434</span>
-          <span className="text-orange-400"> (sp25)</span>
+          <span className="text-orange-400"> (sp26, sp25)</span>
         </p>
         <p>
           <div className="space-y-2 text-sm sm:text-base">
@@ -125,7 +113,7 @@ function Experience({ isDarkMode }) {
                 rel="noopener noreferrer"
                 className="text-orange-400 hover:underline"
               >
-                pipeline builder @ palantir foundry (su25)
+                pipeline builder @ palantir (foundry) (su25)
               </a>
             </p>
           </div>
