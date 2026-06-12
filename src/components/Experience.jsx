@@ -86,7 +86,7 @@ function Experience({ isDarkMode }) {
           </a>
           <span className="text-orange-400">
             {" "}
-            (sp26, su25, sp25, su23, fa22, su22),{" "}
+            (su26, sp26, su25, sp25, su23, fa22, su22),{" "}
           </span>
           <a
             href="https://www.cs.umd.edu/class/fall2023/cmsc122-0101/"
